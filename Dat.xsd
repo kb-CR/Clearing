@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Grapheme" targetNamespace="http://tempuri.org/Grapheme.xsd" xmlns:mstns="http://tempuri.org/Grapheme.xsd" xmlns="http://tempuri.org/Grapheme.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="Grapheme" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="Grapheme" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="Grapheme">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="AName" msprop:Generator_RowEvHandlerName="ANameRowChangeEventHandler" msprop:Generator_RowDeletedName="ANameRowDeleted" msprop:Generator_RowDeletingName="ANameRowDeleting" msprop:Generator_RowEvArgName="ANameRowChangeEvent" msprop:Generator_TablePropName="AName" msprop:Generator_RowChangedName="ANameRowChanged" msprop:Generator_UserTableName="AName" msprop:Generator_RowChangingName="ANameRowChanging" msprop:Generator_RowClassName="ANameRow" msprop:Generator_TableClassName="ANameDataTable" msprop:Generator_TableVarName="tableAName">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnVarNameInTable="columnId" type="xs:long" />
+              <xs:element name="Name" msdata:Caption="TitleCase Name" msprop:Generator_ColumnPropNameInTable="NameColumn" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnVarNameInTable="columnName" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="ALink" msprop:Generator_RowClassName="ALinkRow" msprop:Generator_RowEvHandlerName="ALinkRowChangeEventHandler" msprop:Generator_RowDeletedName="ALinkRowDeleted" msprop:Generator_RowDeletingName="ALinkRowDeleting" msprop:Generator_RowEvArgName="ALinkRowChangeEvent" msprop:Generator_TablePropName="ALink" msprop:Generator_RowChangedName="ALinkRowChanged" msprop:Generator_UserTableName="ALink" msprop:Generator_RowChangingName="ALinkRowChanging" msprop:Generator_TableClassName="ALinkDataTable" msprop:Generator_TableVarName="tableALink">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnVarNameInTable="columnId" type="xs:long" />
+              <xs:element name="Link" msdata:Caption="Uri Link" msprop:Generator_UserColumnName="Link" msprop:Generator_ColumnPropNameInTable="LinkColumn" msprop:Generator_ColumnPropNameInRow="Link" msprop:Generator_ColumnVarNameInTable="columnLink" type="xs:string" minOccurs="0" />
+              <xs:element name="Allow" msprop:Generator_ColumnPropNameInRow="Allow" msprop:Generator_ColumnPropNameInTable="AllowColumn" msprop:Generator_ColumnVarNameInTable="columnAllow" msprop:Generator_UserColumnName="Allow" type="xs:boolean" default="true" />
+              <xs:element name="Disallow" msprop:Generator_ColumnPropNameInRow="Disallow" msprop:Generator_ColumnPropNameInTable="DisallowColumn" msprop:Generator_ColumnVarNameInTable="columnDisallow" msprop:Generator_UserColumnName="Disallow" type="xs:boolean" default="false" />
+              <xs:element name="Sitemap" msprop:Generator_ColumnPropNameInRow="Sitemap" msprop:Generator_ColumnPropNameInTable="SitemapColumn" msprop:Generator_ColumnVarNameInTable="columnSitemap" msprop:Generator_UserColumnName="Sitemap" type="xs:boolean" default="false" />
+              <xs:element name="Robots" msprop:Generator_ColumnPropNameInRow="Robots" msprop:Generator_ColumnPropNameInTable="RobotsColumn" msprop:Generator_ColumnVarNameInTable="columnRobots" msprop:Generator_UserColumnName="Robots" type="xs:boolean" default="false" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="AMember" msprop:Generator_RowClassName="AMemberRow" msprop:Generator_RowEvHandlerName="AMemberRowChangeEventHandler" msprop:Generator_RowDeletedName="AMemberRowDeleted" msprop:Generator_RowDeletingName="AMemberRowDeleting" msprop:Generator_RowEvArgName="AMemberRowChangeEvent" msprop:Generator_TablePropName="AMember" msprop:Generator_RowChangedName="AMemberRowChanged" msprop:Generator_UserTableName="AMember" msprop:Generator_RowChangingName="AMemberRowChanging" msprop:Generator_TableClassName="AMemberDataTable" msprop:Generator_TableVarName="tableAMember">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnVarNameInTable="columnId" type="xs:long" />
+              <xs:element name="Name" msdata:ReadOnly="true" msdata:Caption="NameTable Id" msprop:Generator_UserColumnName="Name" msprop:Generator_ColumnPropNameInTable="NameColumn" msprop:Generator_ColumnPropNameInRow="Name" msprop:Generator_ColumnVarNameInTable="columnName" type="xs:long" default="0" />
+              <xs:element name="Content" msdata:ReadOnly="true" msdata:Caption="ContentTable Id" msprop:Generator_UserColumnName="Content" msprop:Generator_ColumnPropNameInTable="ContentColumn" msprop:Generator_ColumnPropNameInRow="Content" msprop:Generator_ColumnVarNameInTable="columnContent" type="xs:long" default="0" />
+              <xs:element name="Link" msdata:ReadOnly="true" msdata:Caption="LinkTable Id" msprop:Generator_UserColumnName="Link" msprop:Generator_ColumnPropNameInTable="LinkColumn" msprop:Generator_ColumnPropNameInRow="Link" msprop:Generator_ColumnVarNameInTable="columnLink" type="xs:long" default="0" />
+              <xs:element name="UserAgent" msdata:ReadOnly="true" msprop:Generator_ColumnPropNameInRow="UserAgent" msprop:Generator_ColumnPropNameInTable="UserAgentColumn" msprop:Generator_ColumnVarNameInTable="columnUserAgent" msprop:Generator_UserColumnName="UserAgent" type="xs:long" default="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="AContent" msprop:Generator_RowClassName="AContentRow" msprop:Generator_RowEvHandlerName="AContentRowChangeEventHandler" msprop:Generator_RowDeletedName="AContentRowDeleted" msprop:Generator_RowDeletingName="AContentRowDeleting" msprop:Generator_RowEvArgName="AContentRowChangeEvent" msprop:Generator_TablePropName="AContent" msprop:Generator_RowChangedName="AContentRowChanged" msprop:Generator_UserTableName="AContent" msprop:Generator_RowChangingName="AContentRowChanging" msprop:Generator_TableClassName="AContentDataTable" msprop:Generator_TableVarName="tableAContent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_UserColumnName="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnVarNameInTable="columnId" type="xs:long" />
+              <xs:element name="Content" msdata:Caption="Dynamic Content" msprop:Generator_UserColumnName="Content" msprop:Generator_ColumnPropNameInTable="ContentColumn" msprop:Generator_ColumnPropNameInRow="Content" msprop:Generator_ColumnVarNameInTable="columnContent" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="AUserAgent" msprop:Generator_RowEvHandlerName="AUserAgentRowChangeEventHandler" msprop:Generator_RowDeletedName="AUserAgentRowDeleted" msprop:Generator_RowDeletingName="AUserAgentRowDeleting" msprop:Generator_RowEvArgName="AUserAgentRowChangeEvent" msprop:Generator_TablePropName="AUserAgent" msprop:Generator_RowChangedName="AUserAgentRowChanged" msprop:Generator_RowChangingName="AUserAgentRowChanging" msprop:Generator_TableClassName="AUserAgentDataTable" msprop:Generator_RowClassName="AUserAgentRow" msprop:Generator_TableVarName="tableAUserAgent" msprop:Generator_UserTableName="AUserAgent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Id" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:Generator_ColumnPropNameInRow="Id" msprop:Generator_ColumnPropNameInTable="IdColumn" msprop:Generator_ColumnVarNameInTable="columnId" msprop:Generator_UserColumnName="Id" type="xs:long" />
+              <xs:element name="UserAgent" msdata:Caption="Dynamic Content" msprop:Generator_ColumnPropNameInTable="UserAgentColumn" msprop:nullValue="_throw" msprop:Generator_ColumnPropNameInRow="UserAgent" msprop:Generator_UserColumnName="UserAgent" msprop:Generator_ColumnVarNameInTable="columnUserAgent" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="TitleTableKey">
+      <xs:selector xpath=".//mstns:AName" />
+      <xs:field xpath="mstns:Name" />
+    </xs:unique>
+    <xs:unique name="Constraint11">
+      <xs:selector xpath=".//mstns:AName" />
+      <xs:field xpath="mstns:Id" />
+    </xs:unique>
+    <xs:unique name="LinkTableKey">
+      <xs:selector xpath=".//mstns:ALink" />
+      <xs:field xpath="mstns:Link" />
+    </xs:unique>
+    <xs:unique name="ALink_Constraint11" msdata:ConstraintName="Constraint11">
+      <xs:selector xpath=".//mstns:ALink" />
+      <xs:field xpath="mstns:Id" />
+    </xs:unique>
+    <xs:unique name="Constraint1">
+      <xs:selector xpath=".//mstns:AMember" />
+      <xs:field xpath="mstns:Id" />
+    </xs:unique>
+    <xs:unique name="ValueTableKey2">
+      <xs:selector xpath=".//mstns:AContent" />
+      <xs:field xpath="mstns:Content" />
+    </xs:unique>
+    <xs:unique name="AContent_Constraint11" msdata:ConstraintName="Constraint11">
+      <xs:selector xpath=".//mstns:AContent" />
+      <xs:field xpath="mstns:Id" />
+    </xs:unique>
+    <xs:unique name="AUserAgent_ValueTableKey2" msdata:ConstraintName="ValueTableKey2">
+      <xs:selector xpath=".//mstns:AUserAgent" />
+      <xs:field xpath="mstns:UserAgent" />
+    </xs:unique>
+    <xs:unique name="AUserAgent_Constraint11" msdata:ConstraintName="Constraint11">
+      <xs:selector xpath=".//mstns:AUserAgent" />
+      <xs:field xpath="mstns:Id" />
+    </xs:unique>
+  </xs:element>
+  <xs:annotation>
+    <xs:appinfo>
+      <msdata:Relationship name="AUserAgent_AMember" msdata:parent="AUserAgent" msdata:child="AMember" msdata:parentkey="Id" msdata:childkey="UserAgent" msprop:Generator_UserParentTable="AUserAgent" msprop:Generator_UserChildTable="AMember" msprop:Generator_RelationVarName="relationAUserAgent_AMember" msprop:Generator_UserRelationName="AUserAgent_AMember" msprop:Generator_ChildPropName="GetAMemberRows" msprop:Generator_ParentPropName="AUserAgentRow" />
+      <msdata:Relationship name="NameTable_SeriesTable" msdata:parent="AName" msdata:child="AMember" msdata:parentkey="Id" msdata:childkey="Name" msprop:Generator_UserParentTable="AName" msprop:Generator_UserChildTable="AMember" msprop:Generator_RelationVarName="relationNameTable_SeriesTable" msprop:Generator_ChildPropName="GetAMemberRows" msprop:Generator_ParentPropName="ANameRow" msprop:Generator_UserRelationName="NameTable_SeriesTable" />
+      <msdata:Relationship name="ContentTable_SeriesTable" msdata:parent="AContent" msdata:child="AMember" msdata:parentkey="Id" msdata:childkey="Content" msprop:Generator_UserParentTable="AContent" msprop:Generator_UserChildTable="AMember" msprop:Generator_RelationVarName="relationContentTable_SeriesTable" msprop:Generator_UserRelationName="ContentTable_SeriesTable" msprop:Generator_ChildPropName="GetAMemberRows" msprop:Generator_ParentPropName="AContentRow" />
+      <msdata:Relationship name="LinkTable_SeriesTable" msdata:parent="ALink" msdata:child="AMember" msdata:parentkey="Id" msdata:childkey="Link" msprop:Generator_UserParentTable="ALink" msprop:Generator_UserChildTable="AMember" msprop:Generator_RelationVarName="relationLinkTable_SeriesTable" msprop:Generator_ChildPropName="GetAMemberRows" msprop:Generator_ParentPropName="ALinkRow" msprop:Generator_UserRelationName="LinkTable_SeriesTable" />
+    </xs:appinfo>
+  </xs:annotation>
+</xs:schema>
